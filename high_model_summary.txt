@@ -1,0 +1,27 @@
+                                OLS Regression Results                                
+======================================================================================
+Dep. Variable:     Total All R&D Expenditures   R-squared:                       0.777
+Model:                                    OLS   Adj. R-squared:                  0.767
+Method:                         Least Squares   F-statistic:                     73.34
+Date:                        Tue, 05 May 2026   Prob (F-statistic):           2.72e-08
+Time:                                21:23:55   Log-Likelihood:                -210.73
+No. Observations:                          23   AIC:                             425.5
+Df Residuals:                              21   BIC:                             427.7
+Df Model:                                   1                                         
+Covariance Type:                    nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1.263e+04    809.004     15.612      0.000    1.09e+04    1.43e+04
+CVE Count      1.2349      0.144      8.564      0.000       0.935       1.535
+==============================================================================
+Omnibus:                        2.236   Durbin-Watson:                   0.342
+Prob(Omnibus):                  0.327   Jarque-Bera (JB):                1.199
+Skew:                           0.178   Prob(JB):                        0.549
+Kurtosis:                       1.939   Cond. No.                     9.02e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 9.02e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.

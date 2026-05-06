@@ -1,0 +1,25 @@
+                                OLS Regression Results                                
+======================================================================================
+Dep. Variable:     Total All R&D Expenditures   R-squared:                       0.604
+Model:                                    OLS   Adj. R-squared:                  0.585
+Method:                         Least Squares   F-statistic:                     32.05
+Date:                        Tue, 05 May 2026   Prob (F-statistic):           1.28e-05
+Time:                                21:23:55   Log-Likelihood:                -217.35
+No. Observations:                          23   AIC:                             438.7
+Df Residuals:                              21   BIC:                             441.0
+Df Model:                                   1                                         
+Covariance Type:                    nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1.284e+04   1139.805     11.264      0.000    1.05e+04    1.52e+04
+CVE Count     11.3345      2.002      5.661      0.000       7.171      15.498
+==============================================================================
+Omnibus:                        2.790   Durbin-Watson:                   0.429
+Prob(Omnibus):                  0.248   Jarque-Bera (JB):                1.249
+Skew:                          -0.063   Prob(JB):                        0.536
+Kurtosis:                       1.865   Cond. No.                         967.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

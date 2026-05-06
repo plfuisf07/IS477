@@ -1,0 +1,125 @@
+Assuming unrestricted shared filesystem usage.
+host: lp7-98
+Building DAG of jobs...
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job           count
+----------  -------
+fetch_data        1
+total             1
+
+Select jobs to execute...
+Execute 1 jobs...
+[Tue May  5 19:33:42 2026]
+localrule fetch_data:
+    output: nvdcve-2.0-2002.json.zip, nvdcve-2.0-2003.json.zip, nvdcve-2.0-2004.json.zip, nvdcve-2.0-2005.json.zip, nvdcve-2.0-2006.json.zip, nvdcve-2.0-2007.json.zip, nvdcve-2.0-2008.json.zip, nvdcve-2.0-2009.json.zip, nvdcve-2.0-2010.json.zip, nvdcve-2.0-2011.json.zip, nvdcve-2.0-2012.json.zip, nvdcve-2.0-2013.json.zip, nvdcve-2.0-2014.json.zip, nvdcve-2.0-2015.json.zip, nvdcve-2.0-2016.json.zip, nvdcve-2.0-2017.json.zip, nvdcve-2.0-2018.json.zip, nvdcve-2.0-2019.json.zip, nvdcve-2.0-2020.json.zip, nvdcve-2.0-2021.json.zip, nvdcve-2.0-2022.json.zip, nvdcve-2.0-2023.json.zip, nvdcve-2.0-2024.json.zip, nvdcve-2.0-2002.json, nvdcve-2.0-2003.json, nvdcve-2.0-2004.json, nvdcve-2.0-2005.json, nvdcve-2.0-2006.json, nvdcve-2.0-2007.json, nvdcve-2.0-2008.json, nvdcve-2.0-2009.json, nvdcve-2.0-2010.json, nvdcve-2.0-2011.json, nvdcve-2.0-2012.json, nvdcve-2.0-2013.json, nvdcve-2.0-2014.json, nvdcve-2.0-2015.json, nvdcve-2.0-2016.json, nvdcve-2.0-2017.json, nvdcve-2.0-2018.json, nvdcve-2.0-2019.json, nvdcve-2.0-2020.json, nvdcve-2.0-2021.json, nvdcve-2.0-2022.json, nvdcve-2.0-2023.json, nvdcve-2.0-2024.jsonCVE_data.csv
+    jobid: 0
+    reason: Missing output files: nvdcve-2.0-2023.json.zip, nvdcve-2.0-2024.jsonCVE_data.csv, nvdcve-2.0-2017.json.zip, nvdcve-2.0-2015.json.zip, nvdcve-2.0-2021.json, nvdcve-2.0-2013.json, nvdcve-2.0-2016.json, nvdcve-2.0-2017.json, nvdcve-2.0-2012.json.zip, nvdcve-2.0-2014.json.zip, nvdcve-2.0-2008.json.zip, nvdcve-2.0-2004.json, nvdcve-2.0-2021.json.zip, nvdcve-2.0-2018.json.zip, nvdcve-2.0-2019.json.zip, nvdcve-2.0-2006.json, nvdcve-2.0-2007.json.zip, nvdcve-2.0-2009.json.zip, nvdcve-2.0-2018.json, nvdcve-2.0-2011.json.zip, nvdcve-2.0-2002.json, nvdcve-2.0-2003.json, nvdcve-2.0-2004.json.zip, nvdcve-2.0-2007.json, nvdcve-2.0-2015.json, nvdcve-2.0-2020.json.zip, nvdcve-2.0-2020.json, nvdcve-2.0-2023.json, nvdcve-2.0-2010.json.zip, nvdcve-2.0-2010.json, nvdcve-2.0-2019.json, nvdcve-2.0-2006.json.zip, nvdcve-2.0-2005.json, nvdcve-2.0-2009.json, nvdcve-2.0-2014.json, nvdcve-2.0-2013.json.zip, nvdcve-2.0-2024.json.zip, nvdcve-2.0-2002.json.zip, nvdcve-2.0-2008.json, nvdcve-2.0-2022.json, nvdcve-2.0-2005.json.zip, nvdcve-2.0-2016.json.zip, nvdcve-2.0-2012.json, nvdcve-2.0-2011.json, nvdcve-2.0-2022.json.zip, nvdcve-2.0-2003.json.zip
+    resources: tmpdir=C:\Users\Moni\AppData\Local\Temp
+Waiting at most 5 seconds for missing files:
+nvdcve-2.0-2003.json.zip (missing locally)
+nvdcve-2.0-2004.json.zip (missing locally)
+nvdcve-2.0-2005.json.zip (missing locally)
+nvdcve-2.0-2006.json.zip (missing locally)
+nvdcve-2.0-2007.json.zip (missing locally)
+nvdcve-2.0-2008.json.zip (missing locally)
+nvdcve-2.0-2009.json.zip (missing locally)
+nvdcve-2.0-2010.json.zip (missing locally)
+nvdcve-2.0-2011.json.zip (missing locally)
+nvdcve-2.0-2012.json.zip (missing locally)
+nvdcve-2.0-2013.json.zip (missing locally)
+nvdcve-2.0-2014.json.zip (missing locally)
+nvdcve-2.0-2015.json.zip (missing locally)
+nvdcve-2.0-2016.json.zip (missing locally)
+nvdcve-2.0-2017.json.zip (missing locally)
+nvdcve-2.0-2018.json.zip (missing locally)
+nvdcve-2.0-2019.json.zip (missing locally)
+nvdcve-2.0-2020.json.zip (missing locally)
+nvdcve-2.0-2021.json.zip (missing locally)
+nvdcve-2.0-2022.json.zip (missing locally)
+nvdcve-2.0-2023.json.zip (missing locally)
+nvdcve-2.0-2024.json.zip (missing locally)
+nvdcve-2.0-2003.json (missing locally)
+nvdcve-2.0-2004.json (missing locally)
+nvdcve-2.0-2005.json (missing locally)
+nvdcve-2.0-2006.json (missing locally)
+nvdcve-2.0-2007.json (missing locally)
+nvdcve-2.0-2008.json (missing locally)
+nvdcve-2.0-2009.json (missing locally)
+nvdcve-2.0-2010.json (missing locally)
+nvdcve-2.0-2011.json (missing locally)
+nvdcve-2.0-2012.json (missing locally)
+nvdcve-2.0-2013.json (missing locally)
+nvdcve-2.0-2014.json (missing locally)
+nvdcve-2.0-2015.json (missing locally)
+nvdcve-2.0-2016.json (missing locally)
+nvdcve-2.0-2017.json (missing locally)
+nvdcve-2.0-2018.json (missing locally)
+nvdcve-2.0-2019.json (missing locally)
+nvdcve-2.0-2020.json (missing locally)
+nvdcve-2.0-2021.json (missing locally)
+nvdcve-2.0-2022.json (missing locally)
+nvdcve-2.0-2023.json (missing locally)
+nvdcve-2.0-2024.jsonCVE_data.csv (missing locally)
+MissingOutputException in rule fetch_data in file "C:\Users\Moni\IS477\Snakefile", line 1:
+Job 0 completed successfully, but some output files are missing. Missing files after 5 seconds. This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait:
+nvdcve-2.0-2003.json.zip (missing locally, parent dir not present)
+nvdcve-2.0-2004.json.zip (missing locally, parent dir not present)
+nvdcve-2.0-2005.json.zip (missing locally, parent dir not present)
+nvdcve-2.0-2006.json.zip (missing locally, parent dir not present)
+nvdcve-2.0-2007.json.zip (missing locally, parent dir not present)
+nvdcve-2.0-2008.json.zip (missing locally, parent dir not present)
+nvdcve-2.0-2009.json.zip (missing locally, parent dir not present)
+nvdcve-2.0-2010.json.zip (missing locally, parent dir not present)
+nvdcve-2.0-2011.json.zip (missing locally, parent dir not present)
+nvdcve-2.0-2012.json.zip (missing locally, parent dir not present)
+nvdcve-2.0-2013.json.zip (missing locally, parent dir not present)
+nvdcve-2.0-2014.json.zip (missing locally, parent dir not present)
+nvdcve-2.0-2015.json.zip (missing locally, parent dir not present)
+nvdcve-2.0-2016.json.zip (missing locally, parent dir not present)
+nvdcve-2.0-2017.json.zip (missing locally, parent dir not present)
+nvdcve-2.0-2018.json.zip (missing locally, parent dir not present)
+nvdcve-2.0-2019.json.zip (missing locally, parent dir not present)
+nvdcve-2.0-2020.json.zip (missing locally, parent dir not present)
+nvdcve-2.0-2021.json.zip (missing locally, parent dir not present)
+nvdcve-2.0-2022.json.zip (missing locally, parent dir not present)
+nvdcve-2.0-2023.json.zip (missing locally, parent dir not present)
+nvdcve-2.0-2024.json.zip (missing locally, parent dir not present)
+nvdcve-2.0-2003.json (missing locally, parent dir not present)
+nvdcve-2.0-2004.json (missing locally, parent dir not present)
+nvdcve-2.0-2005.json (missing locally, parent dir not present)
+nvdcve-2.0-2006.json (missing locally, parent dir not present)
+nvdcve-2.0-2007.json (missing locally, parent dir not present)
+nvdcve-2.0-2008.json (missing locally, parent dir not present)
+nvdcve-2.0-2009.json (missing locally, parent dir not present)
+nvdcve-2.0-2010.json (missing locally, parent dir not present)
+nvdcve-2.0-2011.json (missing locally, parent dir not present)
+nvdcve-2.0-2012.json (missing locally, parent dir not present)
+nvdcve-2.0-2013.json (missing locally, parent dir not present)
+nvdcve-2.0-2014.json (missing locally, parent dir not present)
+nvdcve-2.0-2015.json (missing locally, parent dir not present)
+nvdcve-2.0-2016.json (missing locally, parent dir not present)
+nvdcve-2.0-2017.json (missing locally, parent dir not present)
+nvdcve-2.0-2018.json (missing locally, parent dir not present)
+nvdcve-2.0-2019.json (missing locally, parent dir not present)
+nvdcve-2.0-2020.json (missing locally, parent dir not present)
+nvdcve-2.0-2021.json (missing locally, parent dir not present)
+nvdcve-2.0-2022.json (missing locally, parent dir not present)
+nvdcve-2.0-2023.json (missing locally, parent dir not present)
+nvdcve-2.0-2024.jsonCVE_data.csv (missing locally, parent dir not present)
+Removing output files of failed job fetch_data since they might be corrupted:
+nvdcve-2.0-2002.json.zip, nvdcve-2.0-2002.json
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look below for error messages
+[Tue May  5 19:33:51 2026]
+Error in rule fetch_data:
+    message: None
+    jobid: 0
+    output: nvdcve-2.0-2002.json.zip, nvdcve-2.0-2003.json.zip, nvdcve-2.0-2004.json.zip, nvdcve-2.0-2005.json.zip, nvdcve-2.0-2006.json.zip, nvdcve-2.0-2007.json.zip, nvdcve-2.0-2008.json.zip, nvdcve-2.0-2009.json.zip, nvdcve-2.0-2010.json.zip, nvdcve-2.0-2011.json.zip, nvdcve-2.0-2012.json.zip, nvdcve-2.0-2013.json.zip, nvdcve-2.0-2014.json.zip, nvdcve-2.0-2015.json.zip, nvdcve-2.0-2016.json.zip, nvdcve-2.0-2017.json.zip, nvdcve-2.0-2018.json.zip, nvdcve-2.0-2019.json.zip, nvdcve-2.0-2020.json.zip, nvdcve-2.0-2021.json.zip, nvdcve-2.0-2022.json.zip, nvdcve-2.0-2023.json.zip, nvdcve-2.0-2024.json.zip, nvdcve-2.0-2002.json, nvdcve-2.0-2003.json, nvdcve-2.0-2004.json, nvdcve-2.0-2005.json, nvdcve-2.0-2006.json, nvdcve-2.0-2007.json, nvdcve-2.0-2008.json, nvdcve-2.0-2009.json, nvdcve-2.0-2010.json, nvdcve-2.0-2011.json, nvdcve-2.0-2012.json, nvdcve-2.0-2013.json, nvdcve-2.0-2014.json, nvdcve-2.0-2015.json, nvdcve-2.0-2016.json, nvdcve-2.0-2017.json, nvdcve-2.0-2018.json, nvdcve-2.0-2019.json, nvdcve-2.0-2020.json, nvdcve-2.0-2021.json, nvdcve-2.0-2022.json, nvdcve-2.0-2023.json, nvdcve-2.0-2024.jsonCVE_data.csv
+    shell:
+        python fetch_data.py
+        (command exited with non-zero exit code)
+Complete log(s): C:\Users\Moni\IS477\.snakemake\log\2026-05-05T193342.637170.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.

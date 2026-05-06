@@ -1,0 +1,23 @@
+Assuming unrestricted shared filesystem usage.
+host: lp7-98
+Building DAG of jobs...
+Provided cores: 16
+Rules claiming more threads will be scaled down.
+Job stats:
+job           count
+----------  -------
+fetch_data        1
+total             1
+
+Select jobs to execute...
+Execute 1 jobs...
+[Tue May  5 19:35:13 2026]
+localrule fetch_data:
+    output: nvdcve-2.0-2002.json.zip, nvdcve-2.0-2003.json.zip, nvdcve-2.0-2004.json.zip, nvdcve-2.0-2005.json.zip, nvdcve-2.0-2006.json.zip, nvdcve-2.0-2007.json.zip, nvdcve-2.0-2008.json.zip, nvdcve-2.0-2009.json.zip, nvdcve-2.0-2010.json.zip, nvdcve-2.0-2011.json.zip, nvdcve-2.0-2012.json.zip, nvdcve-2.0-2013.json.zip, nvdcve-2.0-2014.json.zip, nvdcve-2.0-2015.json.zip, nvdcve-2.0-2016.json.zip, nvdcve-2.0-2017.json.zip, nvdcve-2.0-2018.json.zip, nvdcve-2.0-2019.json.zip, nvdcve-2.0-2020.json.zip, nvdcve-2.0-2021.json.zip, nvdcve-2.0-2022.json.zip, nvdcve-2.0-2023.json.zip, nvdcve-2.0-2024.json.zip, nvdcve-2.0-2002.json, nvdcve-2.0-2003.json, nvdcve-2.0-2004.json, nvdcve-2.0-2005.json, nvdcve-2.0-2006.json, nvdcve-2.0-2007.json, nvdcve-2.0-2008.json, nvdcve-2.0-2009.json, nvdcve-2.0-2010.json, nvdcve-2.0-2011.json, nvdcve-2.0-2012.json, nvdcve-2.0-2013.json, nvdcve-2.0-2014.json, nvdcve-2.0-2015.json, nvdcve-2.0-2016.json, nvdcve-2.0-2017.json, nvdcve-2.0-2018.json, nvdcve-2.0-2019.json, nvdcve-2.0-2020.json, nvdcve-2.0-2021.json, nvdcve-2.0-2022.json, nvdcve-2.0-2023.json, nvdcve-2.0-2024.json, CVE_data.csv
+    jobid: 0
+    reason: Missing output files: nvdcve-2.0-2002.json, nvdcve-2.0-2013.json, nvdcve-2.0-2003.json, nvdcve-2.0-2015.json.zip, nvdcve-2.0-2010.json, nvdcve-2.0-2008.json, nvdcve-2.0-2019.json, nvdcve-2.0-2009.json.zip, nvdcve-2.0-2012.json, nvdcve-2.0-2018.json, nvdcve-2.0-2002.json.zip, nvdcve-2.0-2019.json.zip, nvdcve-2.0-2007.json.zip, nvdcve-2.0-2020.json, nvdcve-2.0-2024.json.zip, nvdcve-2.0-2015.json, nvdcve-2.0-2005.json, nvdcve-2.0-2022.json, nvdcve-2.0-2009.json, nvdcve-2.0-2021.json, nvdcve-2.0-2010.json.zip, nvdcve-2.0-2011.json.zip, nvdcve-2.0-2016.json.zip, nvdcve-2.0-2012.json.zip, nvdcve-2.0-2016.json, nvdcve-2.0-2023.json, nvdcve-2.0-2017.json.zip, nvdcve-2.0-2024.json, nvdcve-2.0-2013.json.zip, nvdcve-2.0-2023.json.zip, nvdcve-2.0-2020.json.zip, nvdcve-2.0-2003.json.zip, nvdcve-2.0-2017.json, nvdcve-2.0-2006.json, nvdcve-2.0-2004.json.zip, nvdcve-2.0-2018.json.zip, nvdcve-2.0-2008.json.zip, nvdcve-2.0-2007.json, CVE_data.csv, nvdcve-2.0-2004.json, nvdcve-2.0-2014.json, nvdcve-2.0-2022.json.zip, nvdcve-2.0-2005.json.zip, nvdcve-2.0-2021.json.zip, nvdcve-2.0-2011.json, nvdcve-2.0-2014.json.zip, nvdcve-2.0-2006.json.zip
+    resources: tmpdir=C:\Users\Moni\AppData\Local\Temp
+[Tue May  5 19:43:11 2026]
+Finished jobid: 0 (Rule: fetch_data)
+1 of 1 steps (100%) done
+Complete log(s): C:\Users\Moni\IS477\.snakemake\log\2026-05-05T193513.229437.snakemake.log

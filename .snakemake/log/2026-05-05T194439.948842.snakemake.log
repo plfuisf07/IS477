@@ -1,0 +1,43 @@
+Assuming unrestricted shared filesystem usage.
+host: lp7-98
+Building DAG of jobs...
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job             count
+------------  -------
+fetch_tables        1
+total               1
+
+Select jobs to execute...
+Execute 1 jobs...
+[Tue May  5 19:44:40 2026]
+localrule fetch_tables:
+    output: tab001.xlsx, tab002.xlsx
+    jobid: 0
+    reason: Missing output files: tab002.xlsx, tab001.xlsx
+    resources: tmpdir=C:\Users\Moni\AppData\Local\Temp
+RuleException:
+CalledProcessError in file "C:\Users\Moni\IS477\Snakefile", line 6:
+Command 'python fetch_data_rd.py' returned non-zero exit status 1.
+[Tue May  5 19:44:40 2026]
+Error in rule fetch_tables:
+    message: None
+    jobid: 0
+    output: tab001.xlsx, tab002.xlsx
+    shell:
+        python fetch_data_rd.py
+        (command exited with non-zero exit code)
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look below for error messages
+[Tue May  5 19:44:40 2026]
+Error in rule fetch_tables:
+    message: None
+    jobid: 0
+    output: tab001.xlsx, tab002.xlsx
+    shell:
+        python fetch_data_rd.py
+        (command exited with non-zero exit code)
+Complete log(s): C:\Users\Moni\IS477\.snakemake\log\2026-05-05T194439.948842.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.
