@@ -11,7 +11,12 @@ rule analysis.py:
         "medium_model_summary.txt",
         "high_model_summary.txt",
         "critical_model_summary.txt",
-        "analysis_results.png"
+        "analysis_results.png",
+        "none_severity_analysis.png",
+        "low_severity_analysis.png",
+        "medium_severity_analysis.png",
+        "high_severity_analysis.png",
+        "critical_severity_analysis.png"
     shell:
         "python analysis.py"
 

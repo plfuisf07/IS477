@@ -3,8 +3,8 @@
 Dep. Variable:     Total All R&D Expenditures   R-squared:                       0.777
 Model:                                    OLS   Adj. R-squared:                  0.767
 Method:                         Least Squares   F-statistic:                     73.34
-Date:                        Tue, 05 May 2026   Prob (F-statistic):           2.72e-08
-Time:                                21:23:55   Log-Likelihood:                -210.73
+Date:                        Wed, 06 May 2026   Prob (F-statistic):           2.72e-08
+Time:                                21:20:57   Log-Likelihood:                -210.73
 No. Observations:                          23   AIC:                             425.5
 Df Residuals:                              21   BIC:                             427.7
 Df Model:                                   1                                         
