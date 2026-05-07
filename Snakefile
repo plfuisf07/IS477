@@ -1,9 +1,15 @@
+rule dependencies.txt:
+    output:
+        "dependencies.txt"
+    shell:
+        "python dependencies.txt"
+        
 rule README.md:
     output:
         "README.md"
     shell:
         "python README.md"
-        
+
 rule DataDictionary.md:
     output:
         "DataDictionary.md"
