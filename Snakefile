@@ -1,3 +1,15 @@
+rule README.md:
+    output:
+        "README.md"
+    shell:
+        "python README.md"
+        
+rule DataDictionary.md:
+    output:
+        "DataDictionary.md"
+    shell:
+        "python DataDictionary.md"
+
 rule analysis.py:
     input:
         "none_combined.csv",
